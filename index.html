@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Coral base">
+    <title>Coral base</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body> 
+        <header>
+            <h1>
+              <img src="favicon.png" width="125" height="125" alt=""/>
+               Your Password generator</h1>
+            <h2></h2>
+        </header>
+        <nav>
+            <ul> 
+            <li>Homepage</li>
+            <li><a href="Code.html">Code</a></li>
+            </ul>
+        </nav>
+        <main>
+          <p>Какие символы включать в пароль:</p>
+          <ul class="password__generate">
+            <li><input id="arr_num" type="checkbox" /> Цифры</li>
+            <li><input id="arr_en" type="checkbox" /> Английский строчные буквы</li>
+            <li><input id="arr_EN" type="checkbox" /> Английский заглавные буквы</li>
+            <li><input id="arr_symb" type="checkbox" /> Спецсимволы</li>
+          </ul>
+          <p>Количество символов в пароле: <input id="passLenght" type="number" value="8"step="1" min="8" /></p>
+          <p>Сгенерированный пароль: <span id="result"></span></p>
+          <p><button id="pass_start">Сгенерировать пароль</button></p>
+        </main>
+        <footer> 
+            <hr> 
+            <p>Thank you for visiting our site. We are waiting for you at our other works</p>
+        </footer>
+  </body>
+  <script type="text/javascript" src="scripts.js"></script>
+</html> 
