@@ -1,0 +1,48 @@
+:root{
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3.5em;
+    line-height: 2px;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+}
+nav{
+    font-size: large;
+}
+
+main{
+    font-size: large;
+}
+
+html{
+    background-color: #ffe5b4ad;
+}    
+
+nav ul{
+    margin: 8px 0px 2px 0px;
+    padding: 0;
+}
+nav li {
+
+    display: inline;
+    list-style-type: square;
+    font-size: 27px;
+    margin-right: 7px;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: rgba(255, 145, 0, 0.856);
+}
+
+h1 img {
+    vertical-align: middle;
+}
