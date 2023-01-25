@@ -46,3 +46,8 @@ a {
 h1 img {
     vertical-align: middle;
 }
+
+.attention {
+    color: red;
+    font-style: oblique;
+}
