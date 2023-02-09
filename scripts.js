@@ -39,6 +39,15 @@ function generatePassword() {
     console.log(unipass)
     let b = document.getElementById("result");
     unipass.forEach(e => b.innerHTML += "<p>" + e + "</p>");
+
+
+    var type = 'data:application/octet-stream;base64, ';
+    let text =  password + "\n" + password1 + "\n" + password2 + "\n" + password3 + "\n" + password4 + "\n" + password5 + "\n" + password6 + "\n" + password7;
+    var base = btoa(text);
+    var res = type + base;
+    document.getElementById('test').href = res;
 }
 
 document.querySelector('#pass_start').addEventListener('click', generatePassword);
+
+

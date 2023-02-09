@@ -1,6 +1,23 @@
 :root{
     font-family: 'Rubik', sans-serif;
 }
+p{
+     font-size: auto;
+}
+button{
+    float:left;
+    margin:0 10px;
+    font-size: medium;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+}
+#big{
+    font-size: 20px;
+}
+#passLenght{
+    font-size: 16px;
+}
 h1{
     font-family: 'Quicksand', sans-serif;
     font-size: 3.5em;
@@ -46,8 +63,21 @@ a {
 h1 img {
     vertical-align: middle;
 }
-
-.attention {
-    color: red;
-    font-style: oblique;
+#Photo{
+    vertical-align: middle;
+    float:left;
+    margin: 7px 7px 7px 0;
+}
+.sign {
+    float: right; 
+    border: 1px solid #333;
+    padding: 7px; 
+    margin: 10px 0 5px 5px; 
+    background: #f0f0f0; 
+   }
+   .sign figcaption {
+    margin: 0 auto 5px; 
+   }
+.code{
+    font-size: larger;
 }

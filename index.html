@@ -19,7 +19,9 @@
         <nav>
             <ul> 
             <li>Homepage</li>
+            <li><a href="About_Us.html">About Us</a></li>
             <li><a href="Code.html">Code</a></li>
+            
             </ul>
         </nav>
         <main>
@@ -30,15 +32,17 @@
             <li><input id="arr_EN" type="checkbox" /> Английский заглавные буквы</li>
             <li><input id="arr_symb" type="checkbox" /> Спецсимволы</li>
           </ul>
-          <p>Количество символов в пароле: <input id="passLenght" type="number" value="8" min="8" /></p>
+          <p id="big">Количество символов в пароле: <input id="passLenght" type="number" value="8" min="8" /></p>
           <p>Сгенерированный пароль: </p>
           <div id="result"></div>
           <p><button id="reset" onclick="location.reload()">Обновить характеристики</button></p>
           <p><button id="pass_start">Сгенерировать пароль</button></p>
+          <a download="Your_Password_generator.txt" id="test" href="#"><button id="download">Скачать пароли</button></a>
+          <p><br></p>
         </main>
         <footer> 
             <hr> 
-            <p>Спасибо, что посетили данный сайт. Он был выполнен Кретовым Андреем учеником 11Б класса</p>
+            <p>Спасибо, что посетили данный сайт. Он был создан Кретовым Андреем учеником 11Б класса</p>
         </footer>
   </body>
   <script type="text/javascript" src="scripts.js"></script>
