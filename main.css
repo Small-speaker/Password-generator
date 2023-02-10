@@ -1,31 +1,80 @@
 :root{
     font-family: 'Rubik', sans-serif;
 }
-p{
-     font-size: auto;
+
+@media(min-width: 320px){
+    #big{
+        font-size: 50px;
+    }
+    #passLenght{
+        font-size: 40px;
+    }
+    button{
+        margin: 5px 10px 10px 10px;
+        width: auto;
+        height: auto;
+        font-size: 45px;
+    }
+    #arr_num{
+        zoom: 2.8;
+    }
+    #arr_en{
+        zoom: 2.8;
+    }
+    #arr_EN{
+        zoom: 2.8;
+    }
+    #arr_symb{
+        zoom: 2.8;
+    }
+    figcaption{
+        font-size: 25px;
+        text-align: center;
+    }
 }
-button{
+
+@media(min-width: 1400px){
+    button{
     float:left;
     margin:0 10px;
     font-size: medium;
     width: auto;
     height: auto;
     font-size: 16px;
+    }
+    #passLenght{
+        font-size: 16px;
+    }
+    #big{
+        font-size: 20px;
+    }
+    #arr_num{
+        zoom: 1;
+    }
+    #arr_en{
+        zoom: 1;
+    }
+    #arr_EN{
+        zoom: 1;
+    }
+    #arr_symb{
+        zoom: 1;
+    }
+    figcaption{
+        font-size: auto;
+        text-align: center;
+    }
 }
-#big{
-    font-size: 20px;
+
+p{
+     font-size: auto;
 }
-#passLenght{
-    font-size: 16px;
-}
+
+
 h1{
     font-family: 'Quicksand', sans-serif;
     font-size: 3.5em;
     line-height: 2px;
-}
-h2{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 2em;
 }
 nav{
     font-size: large;
@@ -33,6 +82,12 @@ nav{
 
 main{
     font-size: large;
+    
+}
+
+main ul{
+    list-style-type: none;
+    margin-left: -40px;
 }
 
 html{
@@ -50,6 +105,7 @@ nav li {
     font-size: 27px;
     margin-right: 7px;
     font-weight: 600;
+    
 }
 
 a:hover {
@@ -72,12 +128,16 @@ h1 img {
     float: right; 
     border: 1px solid #333;
     padding: 7px; 
-    margin: 10px 0 5px 5px; 
+    margin: 10px 0 5px 20px; 
     background: #f0f0f0; 
    }
    .sign figcaption {
     margin: 0 auto 5px; 
+    padding-left: 10px;
    }
 .code{
     font-size: larger;
+}
+#About_Us_text{
+    text-align: justify;
 }

@@ -34,9 +34,10 @@ function generatePassword() {
         password5 += arr[randomInteger(0, arr.length - 1)];
         password6 += arr[randomInteger(0, arr.length - 1)];
         password7 += arr[randomInteger(0, arr.length - 1)];
+        console.log(password1)
+        console.log(randomInteger)
     }
     unipass.push(password, password1, password2, password3, password4, password5, password6, password7,)
-    console.log(unipass)
     let b = document.getElementById("result");
     unipass.forEach(e => b.innerHTML += "<p>" + e + "</p>");
 
